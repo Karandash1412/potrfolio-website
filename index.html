@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mykola Kardash</title>
+    <link rel="website icon" type="png" href="./Images/loading.png" sizes="100%">
+    <link rel="stylesheet" href=".//styles.css">
+    <style>
+        body {
+            
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 100%;
+            margin: 0;
+            height: 100vh;
+            overflow-x: hidden; 
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Head Section-->
+    <div class="container">
+        <div class="wholeAside">
+            <div class="logoImg"><img src="./Images/Logo-PhotoRoom.png" alt="Logo" height="130" width="200"></div>
+
+            <div class="navigation">
+                <div><a href="" class="home link">Home</a></div>
+                <div><a href="" class="about link">About</a></div>
+                <div><a href="" class="link">Skills</a></div>
+                <div><a href="" class="education link">Eduction</a></div>
+                <div><a href="" class="portfolio link">Portfolio</a></div>
+                <div><a href="" class="contact link">Contact</a></div>
+            </div>
+
+            <div class="copyright">
+                <p> © 2023 Mykola Kardash <br>
+                    All Rights Reserved. </p>
+            </div>
+        </div>
+        <!--Main section-->
+
+        <!--Carousel-->
+        <div class="slide-container" style="overflow: hidden;">
+            <div class="slide-image" id="image1">
+                <img src="Images/joshua-aragon-BMnhuwFYr7w-unsplash/300.jpg" alt="image-0" height="100%">
+            </div>
+            <div class="slide-image" id="image2">
+                <img src="./slideimages/gettyimages-1129377183.jpg.webp" alt="image-1">
+            </div>
+            <div class="slide-image" id="image3">
+                <img src="./slideimages/programmers-at-work-2200.jpg.webp" alt="image-2">
+            </div>
+            <!-- The dots/circles -->
+            <div class="nav-dot">
+                <span class="dot first" onclick="currentSlide(1)"></span>
+                <span class="dot second" onclick="currentSlide(2)"></span>
+                <span class="dot third" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+        <!--Right Slide-->
+        <div class="rightSlide">
+            <h2>About</h2>
+            <div class="title-divider"></div>
+            <p>Name:Mykola Kardash</p>
+            <hr>
+            <p>Email:bestcole10@gmail.com</p>
+            <hr>
+            <p>Date of bitrh: 25 June 1997</p>
+            <hr>
+            <p>Adress:Surrey, Canada</p>
+            <hr>
+            <p>Nationality:Ukrainian</p>
+            <hr>
+            <div class="skills">
+                <img class="skills-img" src="./Images/Logo of languages/HTML.png" alt="Logog of HTML">
+                <img class="skills-img" src="./Images/Logo of languages/css3-logo.png" alt="Logo of CSS">
+                <img class="skills-img" src="./Images/Logo of languages/JavaScript-logo.png" alt="Logo of JavaScript">
+                <img class="skills-img" src="./Images/Logo of languages/nodejs-1-logo.png" alt="Logog of NodeJS">
+            </div>
+        </div>
+
+    </div>
+    <div class="main">
+        <h1 style="
+        margin-bottom: 0px;"><em>Hello</em>, I'm <br>
+            Mykola Kardash </h1>
+        <p><strong>Front-end developer</strong></p>
+    </div>
+    
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
